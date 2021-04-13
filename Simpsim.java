@@ -1,4 +1,4 @@
-import java.io.*;
+simport java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Simpsim {
         if(args.length == 0)
             System.out.println("USAGE: java Simpsim.java [options] <object file> [integer in value]");
         else
-            parseArgs(args);
+            parseArgs(args); 
 
     }
 
